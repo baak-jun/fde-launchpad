@@ -2,7 +2,7 @@
 
 ## 문제에 맞는 기반부터 고르기
 
-**[문제 유형별 시작 가이드](docs/START_BY_PROBLEM.md)**에서 실행 방법과 선택 기준을 확인하세요. 비공개 GitHub 저장소는 [baak-jun/fde-launchpad](https://github.com/baak-jun/fde-launchpad)입니다.
+**[문제 유형별 시작 가이드](docs/START_BY_PROBLEM.md)**에서 실행 방법과 선택 기준을 확인하세요. 공개 GitHub 저장소는 [baak-jun/fde-launchpad](https://github.com/baak-jun/fde-launchpad)입니다.
 
 [상황별 외부 저장소 지도](docs/REPOSITORY_MAP.md)에서 앱 기반·AI·문서·모바일·커머스 후보를 고를 수 있습니다.
 

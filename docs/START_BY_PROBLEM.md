@@ -76,6 +76,6 @@ python scripts/checkpoint.py my-milestone
 
 ## 저장소 구성
 
-비공개 GitHub 저장소는 **[baak-jun/fde-launchpad](https://github.com/baak-jun/fde-launchpad)**입니다. 추천 기반 8개는 `catalog/launchpads.json`, 기존 기능 후보 28개는 `catalog/repos.json`에 있습니다. 타 프로젝트를 모두 포크하지 않고 공식 원본 링크와 필요할 때 가져오는 명령을 관리합니다. 따라서 원본의 라이선스와 업데이트 경로를 유지할 수 있습니다.
+공개 GitHub 저장소는 **[baak-jun/fde-launchpad](https://github.com/baak-jun/fde-launchpad)**입니다. 추천 기반 8개는 `catalog/launchpads.json`, 기존 기능 후보 28개는 `catalog/repos.json`에 있습니다. 타 프로젝트를 모두 포크하지 않고 공식 원본 링크와 필요할 때 가져오는 명령을 관리합니다. 따라서 원본의 라이선스와 업데이트 경로를 유지할 수 있습니다.
 
 GitHub 생성과 업로드 여부는 실제 원격 저장소 링크로 확인합니다. 로컬 문서에 이름이 적혀 있는 것만으로 생성된 것은 아닙니다.
