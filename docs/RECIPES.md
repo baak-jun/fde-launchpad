@@ -1,0 +1,203 @@
+# 문제별 조합 8개
+
+아래는 공식 레포 기능을 조합한 설계안이다. 통합 동작을 검증한 제품 번들은 아니다. 각 레시피에 웹 업무 베이스 또는 데이터 데모 UI를 하나만 선택해 추가한다.
+
+## 문서 기반 답변·정보 추출 — documents
+
+예: 사내 지식 검색, 계약 항목 추출, 교육 자료 질의
+
+- 입력: 문서와 질문, 사용자별 열람 권한
+- 출력: 답변/구조화 필드 + 문서 ID·페이지 등 근거 + 답변 불가 이유
+- 시작 후보: [microsoft/markitdown](https://github.com/microsoft/markitdown), [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai), [pgvector/pgvector](https://github.com/pgvector/pgvector)
+- 필요할 때 추가: [docling-project/docling](https://github.com/docling-project/docling), [run-llama/llama_index](https://github.com/run-llama/llama_index)
+
+**첫 기능:** 합성 문서 3개에서 한 질문에 근거를 붙여 답하고, 근거 없는 질문은 보류
+
+**도메인 규칙**
+
+- 검색 전에 권한으로 문서를 제한한다
+- 근거가 없으면 추측 대신 답변을 보류한다
+- 문서 내부의 지시문을 실행 지시로 취급하지 않는다
+
+**추천 합격 기준**
+
+- 정답 존재 10건에서 핵심 답과 근거 일치
+- 정답 없음 3건에서 답변 보류
+- 타 사용자 문서 접근 2건에서 노출 0건
+
+**장애 시 대안:** 키워드 검색 + 원문 인용. OCR 실패는 원문 업로드 형식 제한으로 표시.
+
+## 분류·접수·사람 승인 후 실행 — triage
+
+예: 고객 문의, 시설 민원, 구매 요청
+
+- 입력: 요청 텍스트·첨부·요청자
+- 출력: 분류·우선순위·담당자 제안·실행 초안·승인 상태
+- 시작 후보: [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai), [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template)
+- 필요할 때 추가: [activepieces/activepieces](https://github.com/activepieces/activepieces), [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)
+
+**첫 기능:** 문의 1건을 접수해 분류하고 사용자가 승인하면 모의 티켓 하나 생성
+
+**도메인 규칙**
+
+- 분류와 실제 외부 실행을 분리한다
+- 승인된 동일 요청 ID는 한 번만 실행한다
+- 승인 뒤 내용 변경 시 승인을 무효화한다
+
+**추천 합격 기준**
+
+- 정상 요청 10건에서 정해진 분류 기준 충족
+- 승인 거부 2건에서 외부 실행 0건
+- 재시도 3건에서 중복 실행 0건
+
+**장애 시 대안:** 규칙 분류 + 수동 담당자 선택; 외부 연동은 모의 어댑터로 명시.
+
+## 표 데이터 분석·리포트 — analytics
+
+예: 매출 분석, 설문 요약, 운영 지표
+
+- 입력: 합성 CSV/Parquet + 집계 질문
+- 출력: SQL 또는 승인된 집계 계획 + 표·차트·설명
+- 시작 후보: [duckdb/duckdb](https://github.com/duckdb/duckdb), [streamlit/streamlit](https://github.com/streamlit/streamlit)
+- 필요할 때 추가: [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
+
+**첫 기능:** CSV 1개를 읽어 합계·추세를 보여주고 계산 근거를 다운로드
+
+**도메인 규칙**
+
+- 계산은 SQL/코드가 수행하고 LLM은 설명한다
+- 허용된 읽기 전용 쿼리만 실행한다
+- 파일·네트워크 접근과 무제한 쿼리를 막는다
+
+**추천 합격 기준**
+
+- 기준 집계 10건의 수치 일치
+- 잘못된 타입·빈 파일 3건에서 명확한 오류
+- 금지 쿼리 2건 실행 차단
+
+**장애 시 대안:** 사전 정의된 지표·쿼리 선택 UI.
+
+## 예약·배정·일정 최적화 — planner
+
+예: 상담 슬롯 배정, 교실 배정, 배송 일정
+
+- 입력: 자원·시간대·필수 제약·선호 조건
+- 출력: 유효 일정 + 목적값 + 충돌/불가능 이유
+- 시작 후보: [google/or-tools](https://github.com/google/or-tools), [streamlit/streamlit](https://github.com/streamlit/streamlit)
+- 필요할 때 추가: [calcom/cal.diy](https://github.com/calcom/cal.diy), [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
+
+**첫 기능:** 3명·3슬롯의 배정과 불가능한 제약 사례를 함께 시연
+
+**도메인 규칙**
+
+- 시간대와 중복 예약을 명시적으로 검사한다
+- 필수 제약과 선호 조건을 분리한다
+- 자연어 제약은 사람이 확인한 뒤 solver에 넣는다
+
+**추천 합격 기준**
+
+- 가능 사례 10건에서 필수 제약 위반 0건
+- 불가능 사례 3건을 불가능으로 보고
+- 동시 예약 2건에서 중복 확정 0건
+
+**장애 시 대안:** 작은 규칙 기반 배정 + 수동 수정. 최적해라고 표시하지 않음.
+
+## 추천·매칭·우선순위 — recommendation
+
+예: 학습 콘텐츠 추천, 상품 추천, 멘토 매칭
+
+- 입력: 사용자·항목·상호작용 또는 속성
+- 출력: 상위 후보 + 추천 근거 + 제외 기준
+- 시작 후보: [benfred/implicit](https://github.com/benfred/implicit), [duckdb/duckdb](https://github.com/duckdb/duckdb)
+- 필요할 때 추가: [pgvector/pgvector](https://github.com/pgvector/pgvector), [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
+
+**첫 기능:** 합성 상호작용에서 후보 3개와 신규 사용자의 대체 추천 표시
+
+**도메인 규칙**
+
+- 신규 사용자에는 인기/규칙 기반 대안을 제공한다
+- 평가는 시간 또는 사용자 기준으로 분리해 누출을 막는다
+- 자격·지역·재고 등 필수 제약은 추천 후에도 검사한다
+
+**추천 합격 기준**
+
+- holdout에서 규칙 기준선 대비 Recall@K 비교
+- 신규 사용자 3건에서도 유효 후보 반환
+- 제외 항목 2건이 결과에 나타나지 않음
+
+**장애 시 대안:** 속성 필터 + 인기/최신순. 학습 데이터가 없으면 협업 필터링을 쓰지 않음.
+
+## 음성 접수·음성 대화 — voice
+
+예: 회의 기록, 음성 문의, 접근성 도우미
+
+- 입력: 동의된 오디오 또는 실시간 마이크
+- 출력: 전사 + 수정 가능한 요약/행동 초안
+- 시작 후보: [openai/whisper](https://github.com/openai/whisper)
+- 필요할 때 추가: [livekit/agents](https://github.com/livekit/agents), [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
+
+**첫 기능:** 짧은 오디오를 전사하고 사람이 수정한 뒤 접수 초안 생성
+
+**도메인 규칙**
+
+- 실시간 대화와 파일 전사를 다른 경로로 설계한다
+- 인명·수치·주소는 전사 후 사용자 확인을 받는다
+- 오디오 저장 여부와 보관 기간을 명시한다
+
+**추천 합격 기준**
+
+- 목표 언어 샘플 10건에서 핵심 단어 오류 측정
+- 무음/잡음 3건에서 잘못된 행동 생성 방지
+- 연결 끊김 2건에서 텍스트 입력으로 전환
+
+**장애 시 대안:** 미리 준비한 합성 전사 + 텍스트 입력; 녹화/모의임을 표시.
+
+## 주문·재고·업무 시스템 — commerce
+
+예: 주문 상담, 재고 문의, 발주 보조
+
+- 입력: 카탈로그·재고·가격·사용자 요청
+- 출력: 조회 결과 또는 주문/발주 초안
+- 시작 후보: [medusajs/medusa](https://github.com/medusajs/medusa)
+- 필요할 때 추가: [frappe/erpnext](https://github.com/frappe/erpnext), [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
+
+**첫 기능:** 상품 검색 → 재고 확인 → 사용자 확인 → 모의 주문 번호
+
+**도메인 규칙**
+
+- 상품 가격·재고·상태는 원장 시스템을 기준으로 한다
+- 모델이 금액을 만들지 않게 한다
+- 실결제 전 테스트 모드와 승인·중복 방지를 검증한다
+
+**추천 합격 기준**
+
+- 가격·재고 조회 10건에서 원장과 일치
+- 품절/잘못된 SKU 3건에서 주문 차단
+- 재시도 2건에서 주문 중복 0건
+
+**장애 시 대안:** 읽기 전용 카탈로그 + 모의 주문; 결제 기능은 명확히 제외.
+
+## 이미지 검사·이상 탐지 — inspection
+
+예: 제조 불량, 장비 이상, 사진 분류
+
+- 입력: 동일 조건의 정상·이상 이미지와 라벨
+- 출력: 점수·영역·검토 요청
+- 시작 후보: [open-edge-platform/anomalib](https://github.com/open-edge-platform/anomalib)
+- 필요할 때 추가: [streamlit/streamlit](https://github.com/streamlit/streamlit)
+
+**첫 기능:** 정상·이상·도메인 밖 이미지를 각각 입력해 결과와 한계 표시
+
+**도메인 규칙**
+
+- 학습과 평가 이미지를 분리한다
+- 임계값은 평가 데이터로 정하고 불확실 사례는 검토로 보낸다
+- 촬영 조건 변화와 처음 보는 유형을 별도로 시험한다
+
+**추천 합격 기준**
+
+- 검증 집합에서 precision/recall와 누락률 표시
+- 정상 샘플 오탐과 이상 샘플 미탐을 각각 기록
+- 도메인 밖 이미지에서 검토 필요 상태 반환
+
+**장애 시 대안:** 준비된 합성 결과로 UI만 시연; 실제 탐지 성능이라고 주장하지 않음.

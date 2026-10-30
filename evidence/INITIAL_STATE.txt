@@ -1,0 +1,5 @@
+Observed 2026-10-26 Asia/Seoul before kit authoring.
+Workspace contained only .git. git status: No commits yet on master.
+No existing source files or user documents were present to back up.
+The initial checkpoint records this state plus the new backup utility.
+Git metadata is not included in source ZIPs. No existing commits were changed.

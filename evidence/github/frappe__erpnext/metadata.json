@@ -1,0 +1,19 @@
+{
+  "repo": "frappe/erpnext",
+  "checked_at_utc": "2026-10-26T04:46:51.260508+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "frappe/erpnext",
+  "archived": false,
+  "pushed_at": "2026-10-26T04:24:26Z",
+  "default_branch": "develop",
+  "license_api": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+  },
+  "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+  "readme_url": "https://raw.githubusercontent.com/frappe/erpnext/develop/README.md",
+  "license_url": "https://raw.githubusercontent.com/frappe/erpnext/develop/license.txt"
+}

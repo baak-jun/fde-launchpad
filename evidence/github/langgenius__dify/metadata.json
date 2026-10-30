@@ -1,0 +1,19 @@
+{
+  "repo": "langgenius/dify",
+  "checked_at_utc": "2026-10-26T04:46:49.644171+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "langgenius/dify",
+  "archived": false,
+  "pushed_at": "2026-10-26T04:44:04Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  },
+  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "readme_url": "https://raw.githubusercontent.com/langgenius/dify/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/langgenius/dify/main/LICENSE"
+}

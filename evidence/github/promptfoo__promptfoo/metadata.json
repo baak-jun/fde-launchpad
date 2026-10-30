@@ -1,0 +1,19 @@
+{
+  "repo": "promptfoo/promptfoo",
+  "checked_at_utc": "2026-10-26T04:46:49.743443+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "promptfoo/promptfoo",
+  "archived": false,
+  "pushed_at": "2026-10-26T04:44:12Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+  "readme_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/LICENSE"
+}

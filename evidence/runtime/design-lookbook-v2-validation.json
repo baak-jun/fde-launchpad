@@ -1,0 +1,23 @@
+{
+  "themes": 24,
+  "new_screens": 12,
+  "new_screenshots": 12,
+  "existing_screenshots": 24,
+  "local_links": true,
+  "hashes_verified": true,
+  "starter_tests_passed": 7,
+  "browser_checks": {
+    "search_transfer": 1,
+    "overseas_filter": 4,
+    "clipboard_status": "success",
+    "desktop_columns": 2,
+    "all_images_loaded": true,
+    "mobile_width": 390,
+    "mobile_content_width": 375,
+    "mobile_scroll_width": 375
+  },
+  "bundle": "C:\\Users\\baak_jun\\Documents\\ChatGPT\\궁극의 범용 확장 키트\\backups\\design-library-v2-20261026.zip",
+  "bundle_bytes": 4633854,
+  "sha256": "313964fa9e9b0e63110679d0dab1961c87692725eee5d767aa5dc1b48afbade7",
+  "limits": "Static reference mockups, not live branded services. Some source imagery remains placeholder; third-party fonts may require network."
+}

@@ -1,0 +1,19 @@
+{
+  "repo": "langchain-ai/langgraph",
+  "checked_at_utc": "2026-10-26T04:46:47.208797+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "langchain-ai/langgraph",
+  "archived": false,
+  "pushed_at": "2026-10-26T04:36:24Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "Build resilient agents.",
+  "readme_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/LICENSE"
+}

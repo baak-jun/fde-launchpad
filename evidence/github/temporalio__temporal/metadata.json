@@ -1,0 +1,19 @@
+{
+  "repo": "temporalio/temporal",
+  "checked_at_utc": "2026-10-26T04:46:52.957749+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "temporalio/temporal",
+  "archived": false,
+  "pushed_at": "2026-10-26T02:44:24Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "Temporal service",
+  "readme_url": "https://raw.githubusercontent.com/temporalio/temporal/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/temporalio/temporal/main/LICENSE"
+}

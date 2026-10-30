@@ -1,0 +1,19 @@
+{
+  "repo": "medusajs/medusa",
+  "checked_at_utc": "2026-10-26T04:46:51.184848+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "medusajs/medusa",
+  "archived": false,
+  "pushed_at": "2026-10-25T21:46:11Z",
+  "default_branch": "develop",
+  "license_api": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  },
+  "description": "The world's most flexible commerce platform for agents and developers",
+  "readme_url": "https://raw.githubusercontent.com/medusajs/medusa/develop/README.md",
+  "license_url": "https://raw.githubusercontent.com/medusajs/medusa/develop/LICENSE"
+}

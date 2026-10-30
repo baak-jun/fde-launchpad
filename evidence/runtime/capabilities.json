@@ -1,0 +1,83 @@
+{
+  "documents": {
+    "mode": "markitdown_plus_keyword_baseline",
+    "status": "found",
+    "matches": [
+      {
+        "source_id": "policy-refund",
+        "quote": "환불 정책\n미사용 상품의 환불 요청은 주문 번호와 수령일을 확인한 뒤 담당자가 검토합니다. 자동 환불은 하지 않습니다.",
+        "score": 1
+      }
+    ],
+    "limitation": "Literal text retrieval, not semantic RAG or generated factual answers; sample text only, OCR not tested."
+  },
+  "analytics": {
+    "mode": "duckdb_fixed_query",
+    "currency": "KRW",
+    "totals": [
+      {
+        "category": "books",
+        "revenue": 42000
+      },
+      {
+        "category": "equipment",
+        "revenue": 91000
+      }
+    ],
+    "grand_total": 133000,
+    "row_count": 4,
+    "limitation": "Only this validated order schema and fixed aggregation; arbitrary SQL is not accepted."
+  },
+  "planner": {
+    "mode": "ortools_cp_sat",
+    "status": "OPTIMAL",
+    "assignments": [
+      {
+        "person": "person-a",
+        "slot": "09:00"
+      },
+      {
+        "person": "person-b",
+        "slot": "10:00"
+      },
+      {
+        "person": "person-c",
+        "slot": "11:00"
+      }
+    ],
+    "preferred_count": 3,
+    "limitation": "One person per slot; not a live booking system or concurrent reservation service."
+  },
+  "recommendation": {
+    "mode": "transparent_rules_baseline",
+    "cold_start": false,
+    "items": [
+      {
+        "id": "python-data",
+        "title": "파이썬 데이터 실습",
+        "matched_tags": [
+          "data",
+          "python"
+        ],
+        "popularity": 40
+      },
+      {
+        "id": "intro-python",
+        "title": "파이썬 기초",
+        "matched_tags": [
+          "python"
+        ],
+        "popularity": 30
+      },
+      {
+        "id": "data-sql",
+        "title": "SQL 데이터 분석",
+        "matched_tags": [
+          "data"
+        ],
+        "popularity": 25
+      }
+    ],
+    "limitation": "No trained recommender. This is a cold-start baseline for comparison with implicit once real interaction data exists."
+  }
+}

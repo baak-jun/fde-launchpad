@@ -1,0 +1,6 @@
+{
+  "name": "FDE Python workspace",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.13-bookworm",
+  "forwardPorts": [8765],
+  "portsAttributes": {"8765": {"label": "FDE workbench", "onAutoForward": "notify"}}
+}

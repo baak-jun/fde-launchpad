@@ -1,0 +1,24 @@
+{
+  "themes": 12,
+  "screenshots": 24,
+  "manifest_hashes_verified": true,
+  "gallery_local_links_verified": true,
+  "starter_copy_verified": "work/design-ready-final",
+  "browser": {
+    "search_booking_result": 1,
+    "business_category_results": 4,
+    "dark_toggle": true,
+    "images_loaded": true,
+    "copy_prompt_status": "success",
+    "desktop_width": 1280,
+    "desktop_columns": 3,
+    "mobile_width": 390,
+    "mobile_client_width": 375,
+    "mobile_scroll_width": 375,
+    "approval_search_results": 1
+  },
+  "tests_passed": 32,
+  "bundle": "C:\\Users\\baak_jun\\Documents\\ChatGPT\\궁극의 범용 확장 키트\\backups\\design-library-20261026-final.zip",
+  "bundle_bytes": 1235077,
+  "bundle_sha256": "6b969959d10821146eb737c9a938a9092ccb6679f23e504e6b32b3b41e1c8c32"
+}

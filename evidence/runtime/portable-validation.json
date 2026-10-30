@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-26T05:39:35.063865+00:00",
+  "source_archive": "backups/20261026T053652546849Z-runtime-pre-restore.zip",
+  "restored_files": 159,
+  "restored_test_count": 32,
+  "restored_test_exit_code": 0,
+  "restored_code_hashes_match": true,
+  "offline_starter": "work/offline-rehearsal",
+  "offline_test_count": 29,
+  "offline_dependency_lock_matches": true
+}

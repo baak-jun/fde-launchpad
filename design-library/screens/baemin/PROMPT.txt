@@ -1,0 +1,1 @@
+design-library/COMMON_RULES.md와 design-library/screens/baemin/DESIGN.md, design-library/screens/baemin/APPLY.md를 읽고 화면을 만들어줘. screen.html과 screenshot.png는 정보 구조와 시각적 리듬을 확인하는 참고 자료야. 색만 바꾸지 말고 민트색 면과 굵은 한글의 리듬을 사용자 작업에 맞게 반영해줘. 원 브랜드명·로고·제품 문구는 복제하지 마. 기존 기능을 유지하고 변경 전 백업, 실제 데이터 상태와 모바일 검증, 결과 캡처까지 해줘.

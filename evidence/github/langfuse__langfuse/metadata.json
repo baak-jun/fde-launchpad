@@ -1,0 +1,19 @@
+{
+  "repo": "langfuse/langfuse",
+  "checked_at_utc": "2026-10-26T04:46:49.802691+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "langfuse/langfuse",
+  "archived": false,
+  "pushed_at": "2026-10-26T04:38:09Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  },
+  "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+  "readme_url": "https://raw.githubusercontent.com/langfuse/langfuse/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE"
+}

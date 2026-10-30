@@ -1,0 +1,5 @@
+order_id,category,quantity,unit_price_krw
+DEMO-001,books,2,12000
+DEMO-002,books,1,18000
+DEMO-003,equipment,1,55000
+DEMO-004,equipment,3,12000

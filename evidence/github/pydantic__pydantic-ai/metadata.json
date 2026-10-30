@@ -1,0 +1,19 @@
+{
+  "repo": "pydantic/pydantic-ai",
+  "checked_at_utc": "2026-10-26T04:46:47.208040+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "pydantic/pydantic-ai",
+  "archived": false,
+  "pushed_at": "2026-10-26T03:50:14Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+  "readme_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/main/LICENSE"
+}

@@ -1,0 +1,19 @@
+{
+  "repo": "microsoft/markitdown",
+  "checked_at_utc": "2026-10-26T04:46:48.226336+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "microsoft/markitdown",
+  "archived": false,
+  "pushed_at": "2026-10-23T17:04:06Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "Python tool for converting files and office documents to Markdown.",
+  "readme_url": "https://raw.githubusercontent.com/microsoft/markitdown/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/microsoft/markitdown/main/LICENSE"
+}

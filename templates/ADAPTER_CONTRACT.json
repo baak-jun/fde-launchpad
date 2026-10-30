@@ -1,0 +1,8 @@
+{
+  "status": "design_example_not_enforced_schema",
+  "request": {"request_id": "unique-id", "actor_id": "demo-user", "tenant_id": "demo-tenant", "input": {}, "idempotency_key": "tenant-plus-operation-plus-request", "deadline_ms": 15000},
+  "result": {"status": "needs_review", "data": {}, "evidence": [{"source_id": "document-or-record-id", "location": "page-or-row", "excerpt": "supporting-text"}], "uncertainty_reason": "", "usage": {"input_tokens": 0, "output_tokens": 0, "cost": null, "currency": "USD"}},
+  "action": {"operation": "create_ticket", "payload": {}, "payload_hash": "hash-of-approved-payload", "approval_id": null, "executed_at": null},
+  "error": {"code": "UPSTREAM_TIMEOUT", "retryable": true, "message": "safe-message-without-secrets"},
+  "implementation_requirements": ["Authorize server-side before retrieval or action", "Persist approval and idempotency atomically", "Invalidate approval when payload changes", "Do not treat model confidence as calibrated probability", "Treat retrieved text as untrusted data"]
+}

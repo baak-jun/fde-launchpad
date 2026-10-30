@@ -1,0 +1,19 @@
+{
+  "repo": "streamlit/streamlit",
+  "checked_at_utc": "2026-10-26T04:46:48.934087+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "streamlit/streamlit",
+  "archived": false,
+  "pushed_at": "2026-10-26T04:44:24Z",
+  "default_branch": "develop",
+  "license_api": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "description": "Streamlit — A faster way to build and share data apps.",
+  "readme_url": "https://raw.githubusercontent.com/streamlit/streamlit/develop/README.md",
+  "license_url": "https://raw.githubusercontent.com/streamlit/streamlit/develop/LICENSE"
+}

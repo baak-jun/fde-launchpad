@@ -1,0 +1,19 @@
+{
+  "repo": "run-llama/llama_index",
+  "checked_at_utc": "2026-10-26T04:46:48.227653+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "run-llama/llama_index",
+  "archived": false,
+  "pushed_at": "2026-10-23T13:51:39Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "LlamaIndex is the document processing platform for AI",
+  "readme_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/LICENSE"
+}

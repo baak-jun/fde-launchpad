@@ -1,0 +1,6 @@
+[
+  {"id":"intro-python","title":"파이썬 기초","tags":["python","beginner"],"popularity":30,"available":true},
+  {"id":"data-sql","title":"SQL 데이터 분석","tags":["data","sql"],"popularity":25,"available":true},
+  {"id":"python-data","title":"파이썬 데이터 실습","tags":["python","data"],"popularity":40,"available":true},
+  {"id":"closed-course","title":"종료된 과정","tags":["python","data"],"popularity":100,"available":false}
+]

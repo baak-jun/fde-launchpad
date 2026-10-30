@@ -1,0 +1,569 @@
+[
+  {
+    "repo": "fastapi/full-stack-fastapi-template",
+    "url": "https://github.com/fastapi/full-stack-fastapi-template",
+    "category": "웹 서비스 기반",
+    "use_when": "Python API·React·DB가 필요한 업무 제품",
+    "tier": "기본",
+    "caveat": "Docker와 DB 운영 필요; AI·도메인 규칙은 별도",
+    "tags": [
+      "web",
+      "backend",
+      "crud"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "fastapi/full-stack-fastapi-template",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:47.208671+00:00",
+    "last_push_utc": "2026-10-26T03:21:46Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/fastapi/full-stack-fastapi-template/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/fastapi/full-stack-fastapi-template/master/LICENSE"
+  },
+  {
+    "repo": "vercel/ai",
+    "url": "https://github.com/vercel/ai",
+    "category": "AI 인터페이스",
+    "use_when": "TypeScript 스트리밍·도구 호출·구조화 출력",
+    "tier": "기본",
+    "caveat": "SDK이며 완성 앱이 아님; 모델 비용 별도",
+    "tags": [
+      "web",
+      "llm",
+      "chat"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "vercel/ai",
+    "license_summary": "Apache-2.0",
+    "checked_at_utc": "2026-10-26T04:46:47.210431+00:00",
+    "last_push_utc": "2026-10-26T00:34:24Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/vercel/ai/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/vercel/ai/main/LICENSE"
+  },
+  {
+    "repo": "pydantic/pydantic-ai",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "category": "구조화 AI",
+    "use_when": "Python에서 타입 검증과 도구 호출이 필요한 작업",
+    "tier": "기본",
+    "caveat": "검증된 JSON도 사실 정확성을 보장하지 않음",
+    "tags": [
+      "python",
+      "llm",
+      "extract"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "pydantic/pydantic-ai",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:47.208040+00:00",
+    "last_push_utc": "2026-10-26T03:50:14Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/main/LICENSE"
+  },
+  {
+    "repo": "langchain-ai/langgraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "category": "상태 기반 에이전트",
+    "use_when": "중단·재개·사람 확인이 필요한 다단계 업무",
+    "tier": "조건부",
+    "caveat": "단일 모델 호출에는 과함; 영속 저장소 설정 필요",
+    "tags": [
+      "agent",
+      "workflow"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "langchain-ai/langgraph",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:47.208797+00:00",
+    "last_push_utc": "2026-10-26T04:36:24Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/LICENSE"
+  },
+  {
+    "repo": "microsoft/markitdown",
+    "url": "https://github.com/microsoft/markitdown",
+    "category": "문서 변환",
+    "use_when": "여러 사무 문서를 텍스트로 통일",
+    "tier": "기본",
+    "caveat": "스캔·복잡한 표 품질은 입력별 검증",
+    "tags": [
+      "document",
+      "extract"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "microsoft/markitdown",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:48.226336+00:00",
+    "last_push_utc": "2026-10-23T17:04:06Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/microsoft/markitdown/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/microsoft/markitdown/main/LICENSE"
+  },
+  {
+    "repo": "docling-project/docling",
+    "url": "https://github.com/docling-project/docling",
+    "category": "문서 구조 분석",
+    "use_when": "PDF 표·레이아웃·OCR가 중요한 문제",
+    "tier": "조건부",
+    "caveat": "모델 다운로드와 CPU·메모리·처리시간 확인",
+    "tags": [
+      "document",
+      "ocr"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "docling-project/docling",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:48.226679+00:00",
+    "last_push_utc": "2026-10-25T10:47:00Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/docling-project/docling/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/docling-project/docling/main/LICENSE"
+  },
+  {
+    "repo": "run-llama/llama_index",
+    "url": "https://github.com/run-llama/llama_index",
+    "category": "문서 검색 구성",
+    "use_when": "수집·색인·검색 파이프라인이 필요한 RAG",
+    "tier": "조건부",
+    "caveat": "처음부터 모든 커넥터 설치하지 않기",
+    "tags": [
+      "rag",
+      "search"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "run-llama/llama_index",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:48.227653+00:00",
+    "last_push_utc": "2026-10-23T13:51:39Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/LICENSE"
+  },
+  {
+    "repo": "pgvector/pgvector",
+    "url": "https://github.com/pgvector/pgvector",
+    "category": "벡터 검색",
+    "use_when": "PostgreSQL 데이터와 의미 검색을 함께 운영",
+    "tier": "기본",
+    "caveat": "별도 DB 기능; 임베딩·권한·평가는 직접 구성",
+    "tags": [
+      "rag",
+      "search",
+      "database"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "pgvector/pgvector",
+    "license_summary": "PostgreSQL License",
+    "checked_at_utc": "2026-10-26T04:46:48.249525+00:00",
+    "last_push_utc": "2026-10-25T20:20:18Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/pgvector/pgvector/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/pgvector/pgvector/master/LICENSE"
+  },
+  {
+    "repo": "duckdb/duckdb",
+    "url": "https://github.com/duckdb/duckdb",
+    "category": "표 데이터 분석",
+    "use_when": "CSV·Parquet를 SQL로 분석하는 문제",
+    "tier": "기본",
+    "caveat": "사용자 임의 SQL 실행은 제한; 동시 쓰기 제품 DB 대용 아님",
+    "tags": [
+      "data",
+      "analytics"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "duckdb/duckdb",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:48.929957+00:00",
+    "last_push_utc": "2026-10-23T19:39:03Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/duckdb/duckdb/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/duckdb/duckdb/main/LICENSE"
+  },
+  {
+    "repo": "streamlit/streamlit",
+    "url": "https://github.com/streamlit/streamlit",
+    "category": "빠른 데이터 UI",
+    "use_when": "분석·AI 결과를 즉시 조작하는 데모",
+    "tier": "기본",
+    "caveat": "복잡한 모바일 UX와 다중 사용자 업무 흐름에는 별도 설계",
+    "tags": [
+      "data",
+      "web",
+      "demo"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "streamlit/streamlit",
+    "license_summary": "Apache-2.0",
+    "checked_at_utc": "2026-10-26T04:46:48.934087+00:00",
+    "last_push_utc": "2026-10-26T04:44:24Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/streamlit/streamlit/develop/README.md",
+    "license_url": "https://raw.githubusercontent.com/streamlit/streamlit/develop/LICENSE"
+  },
+  {
+    "repo": "activepieces/activepieces",
+    "url": "https://github.com/activepieces/activepieces",
+    "category": "업무 앱 연결",
+    "use_when": "이메일·시트·CRM 연계 자동화",
+    "tier": "조건부",
+    "caveat": "커뮤니티·기업 기능 라이선스 분리; 연결별 권한 확인",
+    "tags": [
+      "workflow",
+      "integration"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "activepieces/activepieces",
+    "license_summary": "MIT core; EE separate",
+    "checked_at_utc": "2026-10-26T04:46:48.995431+00:00",
+    "last_push_utc": "2026-10-26T03:52:50Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/activepieces/activepieces/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/activepieces/activepieces/main/LICENSE"
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "category": "업무 앱 연결 대안",
+    "use_when": "기존 n8n 경험이나 특정 커넥터가 있을 때",
+    "tier": "제약검토",
+    "caveat": "source-available; 범용 재판매·호스팅 키트 기본값에서 제외",
+    "tags": [
+      "workflow",
+      "integration"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "n8n-io/n8n",
+    "license_summary": "Sustainable Use License; EE separate",
+    "checked_at_utc": "2026-10-26T04:46:48.999326+00:00",
+    "last_push_utc": "2026-10-26T00:47:05Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/LICENSE.md"
+  },
+  {
+    "repo": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "category": "시각적 AI 워크플로",
+    "use_when": "코드보다 시각적 RAG·에이전트 시연이 우선",
+    "tier": "제약검토",
+    "caveat": "추가 조건 라이선스; 다중 테넌트·브랜딩 조건 확인",
+    "tags": [
+      "rag",
+      "workflow",
+      "llm"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "langgenius/dify",
+    "license_summary": "Dify license (Apache-2.0 + additional conditions)",
+    "checked_at_utc": "2026-10-26T04:46:49.644171+00:00",
+    "last_push_utc": "2026-10-26T04:44:04Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/langgenius/dify/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/langgenius/dify/main/LICENSE"
+  },
+  {
+    "repo": "promptfoo/promptfoo",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "category": "AI 평가",
+    "use_when": "프롬프트·모델 변경 전후 비교",
+    "tier": "기본",
+    "caveat": "평가 모델 호출 비용 별도; 기대값과 실패 기준 직접 작성",
+    "tags": [
+      "eval",
+      "llm"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "promptfoo/promptfoo",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:49.743443+00:00",
+    "last_push_utc": "2026-10-26T04:44:12Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/LICENSE"
+  },
+  {
+    "repo": "langfuse/langfuse",
+    "url": "https://github.com/langfuse/langfuse",
+    "category": "AI 관측",
+    "use_when": "실행별 비용·지연·실패 원인 추적",
+    "tier": "조건부",
+    "caveat": "EE 기능 별도 조건; 자체 호스팅 서비스 수 확인",
+    "tags": [
+      "observability",
+      "eval"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "langfuse/langfuse",
+    "license_summary": "MIT core; EE separate",
+    "checked_at_utc": "2026-10-26T04:46:49.802691+00:00",
+    "last_push_utc": "2026-10-26T04:38:09Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/langfuse/langfuse/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE"
+  },
+  {
+    "repo": "google/or-tools",
+    "url": "https://github.com/google/or-tools",
+    "category": "계획 최적화",
+    "use_when": "일정·배차·배정·자원 제약 최적화",
+    "tier": "조건부",
+    "caveat": "LLM은 제약 추출만; 해법과 불가능 조건은 solver로 검증",
+    "tags": [
+      "optimization",
+      "schedule"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "google/or-tools",
+    "license_summary": "Apache-2.0",
+    "checked_at_utc": "2026-10-26T04:46:49.942453+00:00",
+    "last_push_utc": "2026-10-23T21:14:06Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/google/or-tools/stable/README.md",
+    "license_url": "https://raw.githubusercontent.com/google/or-tools/stable/LICENSE"
+  },
+  {
+    "repo": "benfred/implicit",
+    "url": "https://github.com/benfred/implicit",
+    "category": "추천",
+    "use_when": "사용자·아이템 상호작용 기반 추천",
+    "tier": "조건부",
+    "caveat": "cold start와 학습 데이터 부족 시 규칙 기반 대안",
+    "tags": [
+      "recommendation",
+      "data"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "benfred/implicit",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:50.410376+00:00",
+    "last_push_utc": "2026-05-08T19:01:37Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/benfred/implicit/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/benfred/implicit/main/LICENSE"
+  },
+  {
+    "repo": "open-edge-platform/anomalib",
+    "url": "https://github.com/open-edge-platform/anomalib",
+    "category": "시각 이상 탐지",
+    "use_when": "제조 이미지·검사 결함 탐지",
+    "tier": "조건부",
+    "caveat": "도메인 이미지와 모델·장치별 추론 검증 필요",
+    "tags": [
+      "vision",
+      "anomaly"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "open-edge-platform/anomalib",
+    "license_summary": "Apache-2.0",
+    "checked_at_utc": "2026-10-26T04:46:50.529674+00:00",
+    "last_push_utc": "2026-10-24T02:24:22Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/open-edge-platform/anomalib/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/open-edge-platform/anomalib/main/LICENSE"
+  },
+  {
+    "repo": "openai/whisper",
+    "url": "https://github.com/openai/whisper",
+    "category": "음성 전사",
+    "use_when": "녹음에서 텍스트를 추출",
+    "tier": "조건부",
+    "caveat": "모델 다운로드·FFmpeg·언어별 품질·실시간 지연 확인",
+    "tags": [
+      "audio",
+      "transcription"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "openai/whisper",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:50.715344+00:00",
+    "last_push_utc": "2026-08-31T17:19:19Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/openai/whisper/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/openai/whisper/main/LICENSE"
+  },
+  {
+    "repo": "livekit/agents",
+    "url": "https://github.com/livekit/agents",
+    "category": "실시간 음성",
+    "use_when": "음성 대화와 실시간 에이전트",
+    "tier": "조건부",
+    "caveat": "전송 서버·STT·LLM·TTS 각각의 비용과 연결 필요",
+    "tags": [
+      "audio",
+      "realtime"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "livekit/agents",
+    "license_summary": "Apache-2.0",
+    "checked_at_utc": "2026-10-26T04:46:50.846782+00:00",
+    "last_push_utc": "2026-10-26T04:22:26Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/livekit/agents/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/livekit/agents/main/LICENSE"
+  },
+  {
+    "repo": "medusajs/medusa",
+    "url": "https://github.com/medusajs/medusa",
+    "category": "커머스",
+    "use_when": "카탈로그·장바구니·주문이 중심인 제품",
+    "tier": "도메인베이스",
+    "caveat": "MIT core와 Enterprise 코드 분리; 결제·배송·세금은 별도 통합",
+    "tags": [
+      "commerce",
+      "orders"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "medusajs/medusa",
+    "license_summary": "MIT core; Enterprise separate",
+    "checked_at_utc": "2026-10-26T04:46:51.184848+00:00",
+    "last_push_utc": "2026-10-25T21:46:11Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/medusajs/medusa/develop/README.md",
+    "license_url": "https://raw.githubusercontent.com/medusajs/medusa/develop/LICENSE"
+  },
+  {
+    "repo": "frappe/erpnext",
+    "url": "https://github.com/frappe/erpnext",
+    "category": "업무 시스템",
+    "use_when": "재고·구매·회계 등 ERP 업무",
+    "tier": "도메인베이스",
+    "caveat": "GPL 계열; 무거운 배포와 도메인 학습 비용",
+    "tags": [
+      "erp",
+      "inventory"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "frappe/erpnext",
+    "license_summary": "GPL-3.0",
+    "checked_at_utc": "2026-10-26T04:46:51.260508+00:00",
+    "last_push_utc": "2026-10-26T04:24:26Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/frappe/erpnext/develop/README.md",
+    "license_url": "https://raw.githubusercontent.com/frappe/erpnext/develop/license.txt"
+  },
+  {
+    "repo": "calcom/cal.diy",
+    "url": "https://github.com/calcom/cal.diy",
+    "category": "예약",
+    "use_when": "가용 시간·일정 예약이 핵심",
+    "tier": "도메인베이스",
+    "caveat": "MIT Cal.diy; 기존 cal.com 링크가 이 저장소로 이동. 팀·조직·SSO 등 EE 기능 제거; 상용 Cal.com과 구분",
+    "tags": [
+      "booking",
+      "schedule"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "calcom/cal.com",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:51.432879+00:00",
+    "last_push_utc": "2026-10-19T18:46:00Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/calcom/cal.diy/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/calcom/cal.diy/main/LICENSE"
+  },
+  {
+    "repo": "marmelab/react-admin",
+    "url": "https://github.com/marmelab/react-admin",
+    "category": "관리자 업무 UI",
+    "use_when": "리소스 CRUD·필터·관리 화면",
+    "tier": "기본",
+    "caveat": "프런트엔드 프레임워크; 데이터 API·기업 기능 별도",
+    "tags": [
+      "crud",
+      "admin",
+      "web"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "marmelab/react-admin",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:51.667699+00:00",
+    "last_push_utc": "2026-10-25T14:35:23Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/marmelab/react-admin/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/marmelab/react-admin/master/LICENSE.md"
+  },
+  {
+    "repo": "flutter/flutter",
+    "url": "https://github.com/flutter/flutter",
+    "category": "다중 플랫폼 UI",
+    "use_when": "모바일·데스크톱 네이티브 UI가 핵심",
+    "tier": "조건부",
+    "caveat": "장치 권한·플러그인별 플랫폼 지원은 따로 검증",
+    "tags": [
+      "mobile",
+      "desktop"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "flutter/flutter",
+    "license_summary": "BSD-3-Clause",
+    "checked_at_utc": "2026-10-26T04:46:51.917211+00:00",
+    "last_push_utc": "2026-10-25T04:29:27Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/flutter/flutter/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/flutter/flutter/master/LICENSE"
+  },
+  {
+    "repo": "expo/expo",
+    "url": "https://github.com/expo/expo",
+    "category": "React 모바일 UI",
+    "use_when": "React 경험으로 모바일 기능 시연",
+    "tier": "조건부",
+    "caveat": "네이티브 모듈·개발 빌드·실기기 사전 준비",
+    "tags": [
+      "mobile",
+      "react"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "expo/expo",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:52.675355+00:00",
+    "last_push_utc": "2026-10-26T00:57:04Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/expo/expo/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/expo/expo/main/LICENSE"
+  },
+  {
+    "repo": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "category": "로컬 모델 실행",
+    "use_when": "외부 모델 API 없이 로컬 추론",
+    "tier": "조건부",
+    "caveat": "런타임과 모델의 라이선스 별개; 메모리·속도 확인",
+    "tags": [
+      "local",
+      "llm"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "ollama/ollama",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:52.697817+00:00",
+    "last_push_utc": "2026-10-26T04:25:58Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/ollama/ollama/main/LICENSE"
+  },
+  {
+    "repo": "temporalio/temporal",
+    "url": "https://github.com/temporalio/temporal",
+    "category": "장기 업무 실행",
+    "use_when": "재시도·복구가 필요한 장기 프로세스",
+    "tier": "조건부",
+    "caveat": "짧은 해커톤 기본 구성에서 제외; 서버 운영 비용",
+    "tags": [
+      "workflow",
+      "durable"
+    ],
+    "verification": "Official README, metadata and root license checked; runtime not tested",
+    "source_repo": "temporalio/temporal",
+    "license_summary": "MIT",
+    "checked_at_utc": "2026-10-26T04:46:52.957749+00:00",
+    "last_push_utc": "2026-10-26T02:44:24Z",
+    "archived": false,
+    "readme_url": "https://raw.githubusercontent.com/temporalio/temporal/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/temporalio/temporal/main/LICENSE"
+  }
+]

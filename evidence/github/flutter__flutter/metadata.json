@@ -1,0 +1,19 @@
+{
+  "repo": "flutter/flutter",
+  "checked_at_utc": "2026-10-26T04:46:51.917211+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "flutter/flutter",
+  "archived": false,
+  "pushed_at": "2026-10-25T04:29:27Z",
+  "default_branch": "master",
+  "license_api": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx_id": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "node_id": "MDc6TGljZW5zZTU="
+  },
+  "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+  "readme_url": "https://raw.githubusercontent.com/flutter/flutter/master/README.md",
+  "license_url": "https://raw.githubusercontent.com/flutter/flutter/master/LICENSE"
+}

@@ -1,0 +1,100 @@
+NOTICE — Brand assets
+
+Brand assets in this repository live in two places, and both are
+trademarks or copyrighted material of their respective owners:
+
+  - the logos under public/logos/
+  - brand imagery embedded in the preview mockups under
+    public/preview/*/assets/
+
+They are included for identification and reference purposes only.
+
+These assets are NOT covered by the MIT or CC BY 4.0 licenses
+in this repository. They are NOT redistributable as part of
+the catalog license. If you fork or reuse this catalog, you
+must comply with each brand owner's trademark policy
+independently, or remove the affected files.
+
+National emblem — public/logos/krds.svg
+
+public/logos/krds.svg is the Republic of Korea government symbol
+(정부상징), not a product logo. Its terms differ from the brand
+logos above.
+
+  - Governed by 「정부기에 관한 공고」 (2016-03-29, 대통령공고 제264호)
+  - krds.go.kr states its materials are published under KOGL Type 1
+    (공공누리 제1유형 — attribution)
+  - Whether the symbol itself falls within that scope is NOT verified
+  - Treated here as identification / reference only
+
+Do not reuse it as an identifier for any non-government product.
+
+Takedown requests:
+  - Open a Takedown request issue using the
+    "⚖️ 삭제(Takedown) 요청" template (label: legal/takedown), or
+  - Use this repository's Private Vulnerability Reporting if the
+    matter is sensitive or legal:
+    https://github.com/CaesiumY/ko-design-md/security/advisories/new
+
+See docs/TAKEDOWN.md for how takedown requests are handled.
+
+Preview asset inventory — brand imagery embedded in mockups
+
+Preview mockups are drawn in CSS and inline SVG. Where one embeds a
+brand's own artwork instead, the file lives beside that preview and is
+listed here. Entries are indented four spaces so the logo inventory
+below stays the single list that public/logos/ is checked against.
+
+The list is empty. Every preview is drawn entirely in CSS and inline
+SVG. Four 당근 service icons under public/preview/seed-design/assets/
+were the only exception; they were replaced with that preview's own
+SVG sprite and the directory is gone. The section stays so the next
+embedded asset has a declared home, and so the test that keeps this
+list in sync with public/preview/*/assets/ still has an anchor.
+
+Asset inventory — which brand each file belongs to
+
+This list is maintained by hand. Automating it is tracked separately;
+until then, update this section whenever a logo file is added or removed.
+
+  11st-logotype.png              11번가
+  11st.png                       11번가
+  baemin.svg                     배달의민족
+  bezier.png                     채널톡
+  class101.png                   클래스101
+  codeit-logotype.png            코드잇
+  codeit.png                     코드잇
+  gmarket-logotype.png           지마켓
+  gmarket.png                    지마켓
+  goorm.png                      구름
+  greeting.svg                   그리팅
+  gs-retail-logotype.png         우리동네GS
+  gs-retail.png                  우리동네GS
+  gs-shop-logotype.svg           GS SHOP
+  gs-shop.png                    GS SHOP
+  krds.svg                       KRDS (national emblem — see above)
+  kyobobook-logotype.png         교보문고
+  kyobobook.png                  교보문고
+  lg-electronics-logotype.svg    LG전자 (lg.com 헤더 락업 SVG)
+  lg-electronics.png             LG전자 (lg.com 사이트 아이콘 512px — 얼굴 심볼 단독)
+  likelion.svg                   멋쟁이사자처럼
+  line-design-system.png         라인
+  nol-logotype.png               NOL (놀유니버스 에셋 센터 PLATFORM_NOL.png 워드마크)
+  nol.png                        NOL (놀유니버스 에셋 센터 APP_ICON.png — 워드마크 브랜드라 심볼 없음, 앱 아이콘)
+  remember-logotype.svg          리멤버앤컴퍼니
+  remember.svg                   리멤버앤컴퍼니
+  ridi-logotype.svg              리디 (ridibooks.com 헤더 워드마크 SVG)
+  ridi.png                       리디 (ridibooks.com 사이트 아이콘 512px — R 심볼, 흰 바탕 원본)
+  samsung-one-ui-logotype.svg    삼성 One UI
+  samsung-one-ui.png             삼성 One UI (런처 앱 One UI Home의 앱 아이콘 — OS 디자인 언어 자체의 심볼이 아님)
+  seed-design-symbol.png         당근
+  seed-design.svg                당근
+  socar.png                      쏘카
+  socar.svg                      쏘카
+  teamsparta-favicon.png         팀스파르타
+  toss-logotype.png              토스
+  toss.png                       토스
+  wanted.png                     원티드
+  yeogi-logotype.png             여기어때
+  yeogi.png                      여기어때
+  zigbang.png                    직방 (s.zigbang.com favicon — 심볼 단독 파일 미수집, 앱 아이콘형)

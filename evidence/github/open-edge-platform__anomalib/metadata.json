@@ -1,0 +1,19 @@
+{
+  "repo": "open-edge-platform/anomalib",
+  "checked_at_utc": "2026-10-26T04:46:50.529674+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "open-edge-platform/anomalib",
+  "archived": false,
+  "pushed_at": "2026-10-24T02:24:22Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "description": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference.",
+  "readme_url": "https://raw.githubusercontent.com/open-edge-platform/anomalib/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/open-edge-platform/anomalib/main/LICENSE"
+}

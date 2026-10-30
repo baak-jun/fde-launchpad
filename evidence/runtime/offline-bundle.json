@@ -1,0 +1,11 @@
+{
+  "path": "C:\\Users\\baak_jun\\Documents\\ChatGPT\\궁극의 범용 확장 키트\\backups\\20261026T054419460937Z-fde-offline-windows-py313.zip",
+  "source_archive": "C:\\Users\\baak_jun\\Documents\\ChatGPT\\궁극의 범용 확장 키트\\backups\\20261026T054418863202Z-offline-source.zip",
+  "files": 221,
+  "wheels": 55,
+  "bytes": 106608716,
+  "sha256": "d97291a36b241656489f5ba74cd213bb1d14bc2484e71092fbddc54b0214fe58",
+  "platform": "Windows x64 CPython 3.13",
+  "contains_keys": false,
+  "contains_runtime_database": false
+}

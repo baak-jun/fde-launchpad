@@ -1,0 +1,19 @@
+{
+  "repo": "ollama/ollama",
+  "checked_at_utc": "2026-10-26T04:46:52.697817+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "ollama/ollama",
+  "archived": false,
+  "pushed_at": "2026-10-26T04:25:58Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "readme_url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/ollama/ollama/main/LICENSE"
+}

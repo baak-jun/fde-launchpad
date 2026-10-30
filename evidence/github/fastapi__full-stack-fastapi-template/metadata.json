@@ -1,0 +1,19 @@
+{
+  "repo": "fastapi/full-stack-fastapi-template",
+  "checked_at_utc": "2026-10-26T04:46:47.208671+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "fastapi/full-stack-fastapi-template",
+  "archived": false,
+  "pushed_at": "2026-10-26T03:21:46Z",
+  "default_branch": "master",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+  "readme_url": "https://raw.githubusercontent.com/fastapi/full-stack-fastapi-template/master/README.md",
+  "license_url": "https://raw.githubusercontent.com/fastapi/full-stack-fastapi-template/master/LICENSE"
+}

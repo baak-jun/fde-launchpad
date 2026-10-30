@@ -1,0 +1,534 @@
+[
+  {
+    "repo": "fastapi/full-stack-fastapi-template",
+    "checked_at_utc": "2026-10-26T04:46:47.208671+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "fastapi/full-stack-fastapi-template",
+    "archived": false,
+    "pushed_at": "2026-10-26T03:21:46Z",
+    "default_branch": "master",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Full-stack web application template with FastAPI, React, SQLModel, PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker Compose.",
+    "readme_url": "https://raw.githubusercontent.com/fastapi/full-stack-fastapi-template/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/fastapi/full-stack-fastapi-template/master/LICENSE"
+  },
+  {
+    "repo": "vercel/ai",
+    "checked_at_utc": "2026-10-26T04:46:47.210431+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "vercel/ai",
+    "archived": false,
+    "pushed_at": "2026-10-26T00:34:24Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+    "readme_url": "https://raw.githubusercontent.com/vercel/ai/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/vercel/ai/main/LICENSE"
+  },
+  {
+    "repo": "pydantic/pydantic-ai",
+    "checked_at_utc": "2026-10-26T04:46:47.208040+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "pydantic/pydantic-ai",
+    "archived": false,
+    "pushed_at": "2026-10-26T03:50:14Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+    "readme_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/main/LICENSE"
+  },
+  {
+    "repo": "langchain-ai/langgraph",
+    "checked_at_utc": "2026-10-26T04:46:47.208797+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "langchain-ai/langgraph",
+    "archived": false,
+    "pushed_at": "2026-10-26T04:36:24Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Build resilient agents.",
+    "readme_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/main/LICENSE"
+  },
+  {
+    "repo": "microsoft/markitdown",
+    "checked_at_utc": "2026-10-26T04:46:48.226336+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "microsoft/markitdown",
+    "archived": false,
+    "pushed_at": "2026-10-23T17:04:06Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Python tool for converting files and office documents to Markdown.",
+    "readme_url": "https://raw.githubusercontent.com/microsoft/markitdown/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/microsoft/markitdown/main/LICENSE"
+  },
+  {
+    "repo": "docling-project/docling",
+    "checked_at_utc": "2026-10-26T04:46:48.226679+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "docling-project/docling",
+    "archived": false,
+    "pushed_at": "2026-10-25T10:47:00Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Get your documents ready for gen AI",
+    "readme_url": "https://raw.githubusercontent.com/docling-project/docling/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/docling-project/docling/main/LICENSE"
+  },
+  {
+    "repo": "run-llama/llama_index",
+    "checked_at_utc": "2026-10-26T04:46:48.227653+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "run-llama/llama_index",
+    "archived": false,
+    "pushed_at": "2026-10-23T13:51:39Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "LlamaIndex is the document processing platform for AI",
+    "readme_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/run-llama/llama_index/main/LICENSE"
+  },
+  {
+    "repo": "pgvector/pgvector",
+    "checked_at_utc": "2026-10-26T04:46:48.249525+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "pgvector/pgvector",
+    "archived": false,
+    "pushed_at": "2026-10-25T20:20:18Z",
+    "default_branch": "master",
+    "license_api": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "description": "Open-source vector similarity search for Postgres",
+    "readme_url": "https://raw.githubusercontent.com/pgvector/pgvector/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/pgvector/pgvector/master/LICENSE"
+  },
+  {
+    "repo": "duckdb/duckdb",
+    "checked_at_utc": "2026-10-26T04:46:48.929957+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "duckdb/duckdb",
+    "archived": false,
+    "pushed_at": "2026-10-23T19:39:03Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "DuckDB is a high-performance analytical database system",
+    "readme_url": "https://raw.githubusercontent.com/duckdb/duckdb/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/duckdb/duckdb/main/LICENSE"
+  },
+  {
+    "repo": "streamlit/streamlit",
+    "checked_at_utc": "2026-10-26T04:46:48.934087+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "streamlit/streamlit",
+    "archived": false,
+    "pushed_at": "2026-10-26T04:44:24Z",
+    "default_branch": "develop",
+    "license_api": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "description": "Streamlit — A faster way to build and share data apps.",
+    "readme_url": "https://raw.githubusercontent.com/streamlit/streamlit/develop/README.md",
+    "license_url": "https://raw.githubusercontent.com/streamlit/streamlit/develop/LICENSE"
+  },
+  {
+    "repo": "activepieces/activepieces",
+    "checked_at_utc": "2026-10-26T04:46:48.995431+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "activepieces/activepieces",
+    "archived": false,
+    "pushed_at": "2026-10-26T03:52:50Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+    "readme_url": "https://raw.githubusercontent.com/activepieces/activepieces/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/activepieces/activepieces/main/LICENSE"
+  },
+  {
+    "repo": "n8n-io/n8n",
+    "checked_at_utc": "2026-10-26T04:46:48.999326+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "n8n-io/n8n",
+    "archived": false,
+    "pushed_at": "2026-10-26T00:47:05Z",
+    "default_branch": "master",
+    "license_api": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "readme_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/LICENSE.md"
+  },
+  {
+    "repo": "langgenius/dify",
+    "checked_at_utc": "2026-10-26T04:46:49.644171+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "langgenius/dify",
+    "archived": false,
+    "pushed_at": "2026-10-26T04:44:04Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "readme_url": "https://raw.githubusercontent.com/langgenius/dify/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/langgenius/dify/main/LICENSE"
+  },
+  {
+    "repo": "promptfoo/promptfoo",
+    "checked_at_utc": "2026-10-26T04:46:49.743443+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "promptfoo/promptfoo",
+    "archived": false,
+    "pushed_at": "2026-10-26T04:44:12Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+    "readme_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/LICENSE"
+  },
+  {
+    "repo": "langfuse/langfuse",
+    "checked_at_utc": "2026-10-26T04:46:49.802691+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "langfuse/langfuse",
+    "archived": false,
+    "pushed_at": "2026-10-26T04:38:09Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+    "readme_url": "https://raw.githubusercontent.com/langfuse/langfuse/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE"
+  },
+  {
+    "repo": "google/or-tools",
+    "checked_at_utc": "2026-10-26T04:46:49.942453+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "google/or-tools",
+    "archived": false,
+    "pushed_at": "2026-10-23T21:14:06Z",
+    "default_branch": "stable",
+    "license_api": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "description": "Google's Operations Research tools:",
+    "readme_url": "https://raw.githubusercontent.com/google/or-tools/stable/README.md",
+    "license_url": "https://raw.githubusercontent.com/google/or-tools/stable/LICENSE"
+  },
+  {
+    "repo": "benfred/implicit",
+    "checked_at_utc": "2026-10-26T04:46:50.410376+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "benfred/implicit",
+    "archived": false,
+    "pushed_at": "2026-05-08T19:01:37Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Fast Python Collaborative Filtering for Implicit Feedback Datasets",
+    "readme_url": "https://raw.githubusercontent.com/benfred/implicit/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/benfred/implicit/main/LICENSE"
+  },
+  {
+    "repo": "open-edge-platform/anomalib",
+    "checked_at_utc": "2026-10-26T04:46:50.529674+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "open-edge-platform/anomalib",
+    "archived": false,
+    "pushed_at": "2026-10-24T02:24:22Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "description": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference.",
+    "readme_url": "https://raw.githubusercontent.com/open-edge-platform/anomalib/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/open-edge-platform/anomalib/main/LICENSE"
+  },
+  {
+    "repo": "openai/whisper",
+    "checked_at_utc": "2026-10-26T04:46:50.715344+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "openai/whisper",
+    "archived": false,
+    "pushed_at": "2026-08-31T17:19:19Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "readme_url": "https://raw.githubusercontent.com/openai/whisper/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/openai/whisper/main/LICENSE"
+  },
+  {
+    "repo": "livekit/agents",
+    "checked_at_utc": "2026-10-26T04:46:50.846782+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "livekit/agents",
+    "archived": false,
+    "pushed_at": "2026-10-26T04:22:26Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
+    "readme_url": "https://raw.githubusercontent.com/livekit/agents/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/livekit/agents/main/LICENSE"
+  },
+  {
+    "repo": "medusajs/medusa",
+    "checked_at_utc": "2026-10-26T04:46:51.184848+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "medusajs/medusa",
+    "archived": false,
+    "pushed_at": "2026-10-25T21:46:11Z",
+    "default_branch": "develop",
+    "license_api": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "description": "The world's most flexible commerce platform for agents and developers",
+    "readme_url": "https://raw.githubusercontent.com/medusajs/medusa/develop/README.md",
+    "license_url": "https://raw.githubusercontent.com/medusajs/medusa/develop/LICENSE"
+  },
+  {
+    "repo": "frappe/erpnext",
+    "checked_at_utc": "2026-10-26T04:46:51.260508+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "frappe/erpnext",
+    "archived": false,
+    "pushed_at": "2026-10-26T04:24:26Z",
+    "default_branch": "develop",
+    "license_api": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+    "readme_url": "https://raw.githubusercontent.com/frappe/erpnext/develop/README.md",
+    "license_url": "https://raw.githubusercontent.com/frappe/erpnext/develop/license.txt"
+  },
+  {
+    "repo": "calcom/cal.com",
+    "checked_at_utc": "2026-10-26T04:46:51.432879+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "calcom/cal.diy",
+    "archived": false,
+    "pushed_at": "2026-10-19T18:46:00Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Scheduling infrastructure for absolutely everyone.",
+    "readme_url": "https://raw.githubusercontent.com/calcom/cal.diy/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/calcom/cal.diy/main/LICENSE"
+  },
+  {
+    "repo": "marmelab/react-admin",
+    "checked_at_utc": "2026-10-26T04:46:51.667699+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "marmelab/react-admin",
+    "archived": false,
+    "pushed_at": "2026-10-25T14:35:23Z",
+    "default_branch": "master",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design",
+    "readme_url": "https://raw.githubusercontent.com/marmelab/react-admin/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/marmelab/react-admin/master/LICENSE.md"
+  },
+  {
+    "repo": "flutter/flutter",
+    "checked_at_utc": "2026-10-26T04:46:51.917211+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "flutter/flutter",
+    "archived": false,
+    "pushed_at": "2026-10-25T04:29:27Z",
+    "default_branch": "master",
+    "license_api": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+    "readme_url": "https://raw.githubusercontent.com/flutter/flutter/master/README.md",
+    "license_url": "https://raw.githubusercontent.com/flutter/flutter/master/LICENSE"
+  },
+  {
+    "repo": "expo/expo",
+    "checked_at_utc": "2026-10-26T04:46:52.675355+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "expo/expo",
+    "archived": false,
+    "pushed_at": "2026-10-26T00:57:04Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+    "readme_url": "https://raw.githubusercontent.com/expo/expo/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/expo/expo/main/LICENSE"
+  },
+  {
+    "repo": "ollama/ollama",
+    "checked_at_utc": "2026-10-26T04:46:52.697817+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "ollama/ollama",
+    "archived": false,
+    "pushed_at": "2026-10-26T04:25:58Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "readme_url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/ollama/ollama/main/LICENSE"
+  },
+  {
+    "repo": "temporalio/temporal",
+    "checked_at_utc": "2026-10-26T04:46:52.957749+00:00",
+    "runtime_tested": false,
+    "canonical_repo": "temporalio/temporal",
+    "archived": false,
+    "pushed_at": "2026-10-26T02:44:24Z",
+    "default_branch": "main",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "description": "Temporal service",
+    "readme_url": "https://raw.githubusercontent.com/temporalio/temporal/main/README.md",
+    "license_url": "https://raw.githubusercontent.com/temporalio/temporal/main/LICENSE"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "repo": "duckdb/duckdb",
+  "checked_at_utc": "2026-10-26T04:46:48.929957+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "duckdb/duckdb",
+  "archived": false,
+  "pushed_at": "2026-10-23T19:39:03Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "DuckDB is a high-performance analytical database system",
+  "readme_url": "https://raw.githubusercontent.com/duckdb/duckdb/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/duckdb/duckdb/main/LICENSE"
+}

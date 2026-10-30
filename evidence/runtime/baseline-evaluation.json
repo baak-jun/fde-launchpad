@@ -1,0 +1,93 @@
+{
+  "mode": "rules_baseline_not_llm",
+  "dataset": "synthetic support-triage, 12 cases",
+  "scope": "Category agreement only; fixture expected_action is NOT fully implemented or scored.",
+  "matched": 11,
+  "total": 12,
+  "cases": [
+    {
+      "id": "s01",
+      "expected_category": "refund",
+      "observed_category": "refund",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s02",
+      "expected_category": "delivery",
+      "observed_category": "delivery",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s03",
+      "expected_category": "billing",
+      "observed_category": "billing",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s04",
+      "expected_category": "technical",
+      "observed_category": "technical",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s05",
+      "expected_category": "refund",
+      "observed_category": "refund",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s06",
+      "expected_category": "delivery",
+      "observed_category": "delivery",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s07",
+      "expected_category": "billing",
+      "observed_category": "billing",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s08",
+      "expected_category": "technical",
+      "observed_category": "technical",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s09",
+      "expected_category": "unknown",
+      "observed_category": "unknown",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s10",
+      "expected_category": "unknown",
+      "observed_category": "unknown",
+      "category_match": true,
+      "blocked": false
+    },
+    {
+      "id": "s11",
+      "expected_category": "refund",
+      "observed_category": "unknown",
+      "category_match": false,
+      "blocked": false
+    },
+    {
+      "id": "s12",
+      "expected_category": "delivery",
+      "observed_category": "delivery",
+      "category_match": true,
+      "blocked": true
+    }
+  ]
+}

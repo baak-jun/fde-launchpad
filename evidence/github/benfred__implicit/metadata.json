@@ -1,0 +1,19 @@
+{
+  "repo": "benfred/implicit",
+  "checked_at_utc": "2026-10-26T04:46:50.410376+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "benfred/implicit",
+  "archived": false,
+  "pushed_at": "2026-05-08T19:01:37Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "Fast Python Collaborative Filtering for Implicit Feedback Datasets",
+  "readme_url": "https://raw.githubusercontent.com/benfred/implicit/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/benfred/implicit/main/LICENSE"
+}

@@ -1,0 +1,195 @@
+{
+  "checked_at_utc": "2026-10-26T05:54:47.557124+00:00",
+  "bundle": {
+    "path": "C:\\Users\\baak_jun\\Documents\\ChatGPT\\궁극의 범용 확장 키트\\backups\\20261026T054419460937Z-fde-offline-windows-py313.zip",
+    "source_archive": "C:\\Users\\baak_jun\\Documents\\ChatGPT\\궁극의 범용 확장 키트\\backups\\20261026T054418863202Z-offline-source.zip",
+    "files": 221,
+    "wheels": 55,
+    "bytes": 106608716,
+    "sha256": "d97291a36b241656489f5ba74cd213bb1d14bc2484e71092fbddc54b0214fe58",
+    "platform": "Windows x64 CPython 3.13",
+    "contains_keys": false,
+    "contains_runtime_database": false
+  },
+  "offline_install_exit_code": 0,
+  "tests": 32,
+  "test_exit_code": 0,
+  "source_hashes_match": true,
+  "capabilities": {
+    "documents": {
+      "mode": "markitdown_plus_keyword_baseline",
+      "status": "found",
+      "matches": [
+        {
+          "source_id": "policy-refund",
+          "quote": "환불 정책\n미사용 상품의 환불 요청은 주문 번호와 수령일을 확인한 뒤 담당자가 검토합니다. 자동 환불은 하지 않습니다.",
+          "score": 1
+        }
+      ],
+      "limitation": "Literal text retrieval, not semantic RAG or generated factual answers; sample text only, OCR not tested."
+    },
+    "analytics": {
+      "mode": "duckdb_fixed_query",
+      "currency": "KRW",
+      "totals": [
+        {
+          "category": "books",
+          "revenue": 42000
+        },
+        {
+          "category": "equipment",
+          "revenue": 91000
+        }
+      ],
+      "grand_total": 133000,
+      "row_count": 4,
+      "limitation": "Only this validated order schema and fixed aggregation; arbitrary SQL is not accepted."
+    },
+    "planner": {
+      "mode": "ortools_cp_sat",
+      "status": "OPTIMAL",
+      "assignments": [
+        {
+          "person": "person-a",
+          "slot": "09:00"
+        },
+        {
+          "person": "person-b",
+          "slot": "10:00"
+        },
+        {
+          "person": "person-c",
+          "slot": "11:00"
+        }
+      ],
+      "preferred_count": 3,
+      "limitation": "One person per slot; not a live booking system or concurrent reservation service."
+    },
+    "recommendation": {
+      "mode": "transparent_rules_baseline",
+      "cold_start": false,
+      "items": [
+        {
+          "id": "python-data",
+          "title": "파이썬 데이터 실습",
+          "matched_tags": [
+            "data",
+            "python"
+          ],
+          "popularity": 40
+        },
+        {
+          "id": "intro-python",
+          "title": "파이썬 기초",
+          "matched_tags": [
+            "python"
+          ],
+          "popularity": 30
+        },
+        {
+          "id": "data-sql",
+          "title": "SQL 데이터 분석",
+          "matched_tags": [
+            "data"
+          ],
+          "popularity": 25
+        }
+      ],
+      "limitation": "No trained recommender. This is a cold-start baseline for comparison with implicit once real interaction data exists."
+    }
+  },
+  "baseline": {
+    "mode": "rules_baseline_not_llm",
+    "dataset": "synthetic support-triage, 12 cases",
+    "scope": "Category agreement only; fixture expected_action is NOT fully implemented or scored.",
+    "matched": 11,
+    "total": 12,
+    "cases": [
+      {
+        "id": "s01",
+        "expected_category": "refund",
+        "observed_category": "refund",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s02",
+        "expected_category": "delivery",
+        "observed_category": "delivery",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s03",
+        "expected_category": "billing",
+        "observed_category": "billing",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s04",
+        "expected_category": "technical",
+        "observed_category": "technical",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s05",
+        "expected_category": "refund",
+        "observed_category": "refund",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s06",
+        "expected_category": "delivery",
+        "observed_category": "delivery",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s07",
+        "expected_category": "billing",
+        "observed_category": "billing",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s08",
+        "expected_category": "technical",
+        "observed_category": "technical",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s09",
+        "expected_category": "unknown",
+        "observed_category": "unknown",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s10",
+        "expected_category": "unknown",
+        "observed_category": "unknown",
+        "category_match": true,
+        "blocked": false
+      },
+      {
+        "id": "s11",
+        "expected_category": "refund",
+        "observed_category": "unknown",
+        "category_match": false,
+        "blocked": false
+      },
+      {
+        "id": "s12",
+        "expected_category": "delivery",
+        "observed_category": "delivery",
+        "category_match": true,
+        "blocked": true
+      }
+    ]
+  },
+  "scope": "Fresh virtual environment from bundled wheels; Windows x64 Python 3.13.5. No real LLM, external connector or native-device validation."
+}

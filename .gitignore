@@ -1,0 +1,10 @@
+backups/
+__pycache__/
+.env
+.env.*
+!.env.example
+work/
+node_modules/
+.venv/
+.cache/
+runtime-data/

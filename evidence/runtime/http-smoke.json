@@ -1,0 +1,12 @@
+{
+  "domain": "procurement",
+  "job_id": "b7b2f143fb6145968709fdd29e42ea58",
+  "status": "completed",
+  "mode": "rules",
+  "events": [
+    "submitted",
+    "approved",
+    "executed_local_sandbox"
+  ],
+  "local_action_created": true
+}

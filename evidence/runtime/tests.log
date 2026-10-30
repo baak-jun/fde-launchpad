@@ -1,0 +1,40 @@
+test_analytics_matches_hand_calculated_totals (test_capabilities.CapabilityTests.test_analytics_matches_hand_calculated_totals) ... ok
+test_bad_analytics_input_is_rejected (test_capabilities.CapabilityTests.test_bad_analytics_input_is_rejected) ... ok
+test_document_evidence_and_scope (test_capabilities.CapabilityTests.test_document_evidence_and_scope) ... ok
+test_recommendation_filters_and_cold_start (test_capabilities.CapabilityTests.test_recommendation_filters_and_cold_start) ... ok
+test_schedule_obeys_constraints_and_reports_infeasible (test_capabilities.CapabilityTests.test_schedule_obeys_constraints_and_reports_infeasible) ... ok
+test_does_not_overwrite_existing_project (test_kit.KitTests.test_does_not_overwrite_existing_project) ... ok
+test_generate_every_recipe_and_keep_unknown_results_unknown (test_kit.KitTests.test_generate_every_recipe_and_keep_unknown_results_unknown) ... ok
+test_recipes_reference_known_repos_and_have_acceptance (test_kit.KitTests.test_recipes_reference_known_repos_and_have_acceptance) ... ok
+test_rejects_escape_paths_and_reserved_names (test_kit.KitTests.test_rejects_escape_paths_and_reserved_names) ... ok
+test_source_evidence_is_complete (test_kit.KitTests.test_source_evidence_is_complete) ... ok
+test_starter_is_self_contained_and_excludes_local_data (test_kit.KitTests.test_starter_is_self_contained_and_excludes_local_data) ... ok
+test_unknown_recipe_creates_nothing (test_kit.KitTests.test_unknown_recipe_creates_nothing) ... ok
+test_every_profile_generates_without_network (test_launchpads.LaunchpadTests.test_every_profile_generates_without_network) ... ok
+test_fetch_records_commit_and_never_runs_install (test_launchpads.LaunchpadTests.test_fetch_records_commit_and_never_runs_install) ... ok
+test_unknown_traversal_and_existing_are_rejected (test_launchpads.LaunchpadTests.test_unknown_traversal_and_existing_are_rejected) ... ok
+test_modified_data_rejected_before_writing (test_restore.RestoreTests.test_modified_data_rejected_before_writing) ... ok
+test_path_escape_rejected_before_writing (test_restore.RestoreTests.test_path_escape_rejected_before_writing) ... ok
+test_roundtrip_and_existing_destination_protection (test_restore.RestoreTests.test_roundtrip_and_existing_destination_protection) ... ok
+test_actual_pydantic_sdk_with_test_model (test_runtime.ProviderTests.test_actual_pydantic_sdk_with_test_model) ... ok
+test_invalid_domain_pack_fails_before_serving (test_runtime.ProviderTests.test_invalid_domain_pack_fails_before_serving) ... ok
+test_invalid_model_citation_is_rejected (test_runtime.ProviderTests.test_invalid_model_citation_is_rejected) ... ok
+test_timeout_is_explicit_fallback (test_runtime.ProviderTests.test_timeout_is_explicit_fallback) ... ok
+test_authorization_and_tenant_isolation (test_runtime.WorkflowTests.test_authorization_and_tenant_isolation) ... ok
+test_bad_input_and_browser_boundaries (test_runtime.WorkflowTests.test_bad_input_and_browser_boundaries) ... ok
+test_blocked_request_cannot_be_approved (test_runtime.WorkflowTests.test_blocked_request_cannot_be_approved) ... ok
+test_completed_is_immutable_and_repeat_execution_returns_same_record (test_runtime.WorkflowTests.test_completed_is_immutable_and_repeat_execution_returns_same_record) ... ok
+test_concurrent_execute_is_atomic (test_runtime.WorkflowTests.test_concurrent_execute_is_atomic) ... ok
+test_daily_budget_persists_and_reservation_is_atomic (test_runtime.WorkflowTests.test_daily_budget_persists_and_reservation_is_atomic) ... ok
+test_restart_and_database_backup_preserve_state (test_runtime.WorkflowTests.test_restart_and_database_backup_preserve_state) ... ok
+test_revision_invalidates_approval_even_when_proposal_is_identical (test_runtime.WorkflowTests.test_revision_invalidates_approval_even_when_proposal_is_identical) ... ok
+test_stale_version_and_tampered_hash (test_runtime.WorkflowTests.test_stale_version_and_tampered_hash) ... ok
+test_submit_idempotency_and_conflicting_input (test_runtime.WorkflowTests.test_submit_idempotency_and_conflicting_input) ... ok
+test_three_domains_reuse_full_flow (test_runtime.WorkflowTests.test_three_domains_reuse_full_flow) ... ok
+test_unapproved_or_rejected_cannot_execute (test_runtime.WorkflowTests.test_unapproved_or_rejected_cannot_execute) ... ok
+test_unknown_and_multi_category_abstain (test_runtime.WorkflowTests.test_unknown_and_multi_category_abstain) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 10.396s
+
+OK

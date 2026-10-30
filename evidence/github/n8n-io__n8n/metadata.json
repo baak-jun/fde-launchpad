@@ -1,0 +1,19 @@
+{
+  "repo": "n8n-io/n8n",
+  "checked_at_utc": "2026-10-26T04:46:48.999326+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "n8n-io/n8n",
+  "archived": false,
+  "pushed_at": "2026-10-26T00:47:05Z",
+  "default_branch": "master",
+  "license_api": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  },
+  "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+  "readme_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/README.md",
+  "license_url": "https://raw.githubusercontent.com/n8n-io/n8n/master/LICENSE.md"
+}

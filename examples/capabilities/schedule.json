@@ -1,0 +1,8 @@
+{
+  "slots":["09:00","10:00","11:00"],
+  "people":[
+    {"id":"person-a","allowed":["09:00","10:00"],"preferred":"09:00"},
+    {"id":"person-b","allowed":["10:00","11:00"],"preferred":"10:00"},
+    {"id":"person-c","allowed":["09:00","11:00"],"preferred":"11:00"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "repo": "marmelab/react-admin",
+  "checked_at_utc": "2026-10-26T04:46:51.667699+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "marmelab/react-admin",
+  "archived": false,
+  "pushed_at": "2026-10-25T14:35:23Z",
+  "default_branch": "master",
+  "license_api": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "description": "A frontend Framework for single-page applications on top of REST/GraphQL APIs, using TypeScript, React and Material Design",
+  "readme_url": "https://raw.githubusercontent.com/marmelab/react-admin/master/README.md",
+  "license_url": "https://raw.githubusercontent.com/marmelab/react-admin/master/LICENSE.md"
+}

@@ -1,0 +1,19 @@
+{
+  "repo": "vercel/ai",
+  "checked_at_utc": "2026-10-26T04:46:47.210431+00:00",
+  "runtime_tested": false,
+  "canonical_repo": "vercel/ai",
+  "archived": false,
+  "pushed_at": "2026-10-26T00:34:24Z",
+  "default_branch": "main",
+  "license_api": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  },
+  "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+  "readme_url": "https://raw.githubusercontent.com/vercel/ai/main/README.md",
+  "license_url": "https://raw.githubusercontent.com/vercel/ai/main/LICENSE"
+}
